@@ -1,0 +1,28 @@
+{
+  "name": "alerting-cli",
+  "version": "1.0.0",
+  "description": "This is cross platform CLI Alert with colors and symbols for warning like success,failure,warning and error.Works on all platforms",
+  "license": "MIT",
+  "author": {
+    "name": "Siya Banodha",
+    "email": "nowitissiya@gmail.com"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "alerting-cli",
+    "alert-cli",
+    "alert",
+    "success-alert",
+    "error-alert"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "log-symbols": "^4.1.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  }
+}
